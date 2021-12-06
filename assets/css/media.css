@@ -82,4 +82,10 @@
     .services .img-box{
         height: 200px;
     }
+    .services{
+        padding-bottom: 0px !important;
+    }
+    .questions{
+        padding-top: 0px !important;
+    }
 }
