@@ -21,7 +21,7 @@
     scroll-behavior: smooth;
     padding:0px;
     ::-webkit-scrollbar-thumb {
-        background-color: #20676f;
+        background-color: #92278F;
         border-radius: 0px;
     }
     ::-webkit-scrollbar {
@@ -71,15 +71,18 @@ span {
 }
 
 .custom-bnt{
-    color: #14a3b4;
+    color: #92278F;
     padding: 10px 20px;
-    border: 1px solid #14a3b4;
+    border: 1px solid #92278F;
     position: relative;
     overflow: hidden;
     z-index: 99;
     width: fit-content !important;
     font-size: 15px;
     font-family: 'bold';
+    background: transparent;
+    outline: none;
+    
     &:before,
     &:after {
         content: "";
@@ -88,7 +91,7 @@ span {
         right: 0;
         bottom: 0;
         left: 0;
-        border-bottom: 80px solid #14a3b4;
+        border-bottom: 80px solid #92278F;
         z-index: -1;
     }
     
@@ -128,11 +131,11 @@ span {
         margin: auto;
         font-size: 20px;
         font-family: 'bold';
-        color: #14a3b4;
+        color: #92278F;
         text-transform: capitalize;
 
         span{
-            color: #f2b73e;
+            color: #00A79D;
             font-family: 'bold';
             font-size: 20px;
         }
@@ -144,7 +147,7 @@ span {
             transform: translateX(-50%);
             height: 4px;
             width: 85px;
-            background: #14a3b4;
+            background: #92278F;
             border-radius: 5px;
             overflow: hidden;
         }
@@ -187,7 +190,7 @@ span {
     top: 0;
     left: 0;
     z-index: 999;
-    box-shadow: 0px 0px 10px rgba($color: #20676f , $alpha: .2);
+    box-shadow: 0px 0px 10px rgba($color: #92278F , $alpha: .2);
     background-color: #fff;
     .content{
         width: 100%;
@@ -201,7 +204,7 @@ span {
         .hamburger .line{
             width: 30px;
             height: 3px;
-            background-color: #14a3b4;
+            background-color: #92278F;
             display: block;
             margin: 8px auto;
             transition: all 0.3s ease-in-out;
@@ -252,12 +255,12 @@ span {
                         height: 2px;
                         bottom: 0%;
                         left: 25%;
-                        background-color: #14a3b4;
+                        background-color: #92278F;
                         transform: scaleX(0);
                         transition: all 300ms linear;
                     }
                     &:hover{
-                        color: #f2b73e;
+                        color: #00A79D;
                         &::after{
                             transform: scaleX(1);
                         }
@@ -286,7 +289,7 @@ header{
             margin-bottom: 20px;
         }
         h4{
-            color: #f2b73e;
+            color: #fff;
             font-family: 'bold';
             font-size: 22px;
             margin-bottom: 20px;
@@ -308,7 +311,7 @@ header{
                 border-color: #fff;
             }
             &:hover{
-                color: #20676f;
+                color: #92278F;
             }
         }
     }
@@ -421,7 +424,7 @@ header{
                 position: absolute;
                 width: 15px;
                 height: 15px;
-                border: 1px solid #14a3b4;
+                border: 1px solid #92278F;
                 border-radius: 50%;
                 left: -10px;
                 top: 50%;
@@ -432,14 +435,14 @@ header{
                 position: absolute;
                 width: 5px;
                 height: 5px;
-                background-color: #14a3b4;
+                background-color: #92278F;
                 border-radius: 50%;
                 left: -5px;
                 top: 50%;
                 transform: translateY(-50%);
             }
             a{
-                color: #14a3b4;
+                color: #92278F;
                 font-family: 'semibold';
                 font-size: 18px;
             }
@@ -510,7 +513,7 @@ header{
             width: 100%;
             text-align: center;
             h4{
-                color: #14a3b4;
+                color: #92278F;
                 font-family: 'bold';
                 font-size: 16px;
                 margin-bottom: 20px;
@@ -524,7 +527,7 @@ header{
         }
         &:hover{
             transform: translateY(-10px);
-            box-shadow: 0px 0px 10px rgba($color: #20676f , $alpha: .4);
+            box-shadow: 0px 0px 10px rgba($color: #92278F , $alpha: .4);
         }
     }
 }
@@ -578,7 +581,7 @@ header{
         justify-content: center;
         padding-right: 90px;
         h4{
-            color: #14a3b4;
+            color: #92278F;
             font-family: 'bold';
             font-size: 30px;
             line-height: 2.5rem;
@@ -615,14 +618,14 @@ header{
             z-index: -1;
             width: 100%;
             height: 0%;
-            background: #14a3b4;
+            background: #92278F;
             transition: all .5s linear;
             border-radius: 10px;
         }
         .image-content{
             width: 100px;
             height: 100px;
-            background-color: #14a3b4;
+            background-color: #92278F;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -644,7 +647,7 @@ header{
             align-content: center;
             text-align: center;
             h4{
-                color: #14a3b4;
+                color: #92278F;
                 font-family: 'bold';
                 font-size: 20px;
                 margin-bottom: 16px;
@@ -672,7 +675,7 @@ header{
                 color: #fff;
             }
             .custom-bnt{
-                color: #14a3b4;
+                color: #92278F;
                 &::after , &::before {
                     border-color: #fff;
                 }
@@ -695,7 +698,7 @@ header{
         justify-content: center;
         align-items: center;
         align-content: center;
-        border: 1px solid rgba($color: #14a3b4 , $alpha: .2);
+        border: 1px solid rgba($color: #92278F , $alpha: .2);
         transition: all .5s linear;
         position: relative;
         z-index: 99;
@@ -723,7 +726,7 @@ header{
             text-align: center;
             padding-top: 20px;
             h6{
-                color: #14a3b4;
+                color: #92278F;
                 font-size: 20px;
                 font-family: 'bold';
                 margin-bottom: 15px;
@@ -740,7 +743,7 @@ header{
             position: absolute;
             width: 100%;
             height: 0%;
-            background:#14a3b4;
+            background:#92278F;
             transition: all .5s linear;
             top: 0;
             left: 0;
@@ -748,7 +751,7 @@ header{
         }
         &:hover{
             transform: translateY(-10px);
-            box-shadow: 0px 0px 10px rgba($color: #14a3b4 , $alpha: .4);
+            box-shadow: 0px 0px 10px rgba($color: #92278F , $alpha: .4);
             border-color: transparent;
             &::After{
                 height: 100%;
@@ -768,12 +771,12 @@ header{
         span{
             width: 5px;
             height: 5px;
-            background-color: rgba($color: #14a3b4 , $alpha: .5);
+            background-color: rgba($color: #92278F , $alpha: .5);
             transition: all .5s linear;
         }
         .owl-dot.active span{
             width: 20px !important;
-            background-color: #14a3b4 !important;  
+            background-color: #92278F !important;  
         }
     }
 }
@@ -825,14 +828,14 @@ header{
             z-index: -1;
             width: 100%;
             height: 0%;
-            background: #14a3b4;
+            background: #92278F;
             transition: all .5s linear;
             border-radius: 10px;
         }
         .image-content{
             width: 100px;
             height: 100px;
-            background-color: #14a3b4;
+            background-color: #92278F;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -854,7 +857,7 @@ header{
             align-content: center;
             text-align: center;
             h4{
-                color: #14a3b4;
+                color: #92278F;
                 font-family: 'bold';
                 font-size: 20px;
                 margin-bottom: 16px;
@@ -882,7 +885,7 @@ header{
                 color: #fff;
             }
             .custom-bnt{
-                color: #14a3b4;
+                color: #92278F;
                 &::after , &::before {
                     border-color: #fff;
                 }
@@ -997,7 +1000,7 @@ header{
             padding: 20px 0px 0px 0px;
             border-bottom: 1px solid #F5F8FF;
             h4{
-                color: #14a3b4;
+                color: #92278F;
                 font-size: 20px;
                 font-family: 'bold';
                 margin-bottom: 20px;
@@ -1011,7 +1014,7 @@ header{
             .price-type{
                 font-family: 'semibold';
                 font-size: 18px;
-                color: #14a3b4;
+                color: #92278F;
                 span{
                     color: #333;
                     font-family: 'semibold';
@@ -1025,7 +1028,7 @@ header{
             text-align: center;
             border-bottom: 1px solid #F5F8FF;
             h4{
-                color: #14a3b4;
+                color: #92278F;
                 font-family: 'bold';
                 font-size: 20px;
                 margin: 0px;
@@ -1113,7 +1116,7 @@ header{
         }
         &:hover{
             transform: translateY(-10px);
-            box-shadow: 0px 0px 10px rgba($color: #14a3b4 , $alpha: .2);
+            box-shadow: 0px 0px 10px rgba($color: #92278F , $alpha: .2);
         }
     }
 }
@@ -1269,7 +1272,7 @@ header{
         align-items: center;
         align-content: center;
         transition: all .5s linear;
-        border: 1px solid rgba($color: #20676f , $alpha: .2);
+        border: 1px solid rgba($color: #92278F , $alpha: .2);
         img{
             width: 100%;
             height: 90%;
@@ -1278,7 +1281,7 @@ header{
         &:hover{
             transform: translateY(-10px) !important;
             border-color: transparent;
-            box-shadow: 0px 0px 5px rgba($color: #20676f , $alpha: .5);
+            box-shadow: 0px 0px 5px rgba($color: #92278F , $alpha: .5);
         }
     }
     .owl-carousel .owl-stage-outer{
@@ -1289,12 +1292,12 @@ header{
         span{
             width: 5px;
             height: 5px;
-            background-color: rgba($color: #14a3b4 , $alpha: .5);
+            background-color: rgba($color: #92278F , $alpha: .5);
             transition: all .5s linear;
         }
         .owl-dot.active span{
             width: 20px !important;
-            background-color: #14a3b4 !important;  
+            background-color: #92278F !important;  
         }
     }
 }
@@ -1335,7 +1338,7 @@ header{
             .form-control{
                 width: 100%;
                 height: 100%;
-                color: #14a3b4;
+                color: #92278F;
                 padding: 0px  10px !important;
                 border: none;
                 &:focus , &:valid{
@@ -1343,7 +1346,7 @@ header{
                         border: none;
                         .label-content{
                            transform: translateY(-80%);
-                           color: #14a3b4;
+                           color: #92278F;
                         }
                         &::after{
                             transform: scaleX(1);
@@ -1370,8 +1373,8 @@ header{
                     top: 0px;
                     width: 100%;
                     height: 100%;
-                    border-top: 1px solid #14a3b4;
-                    border-bottom: 1px solid #14a3b4;
+                    border-top: 1px solid #92278F;
+                    border-bottom: 1px solid #92278F;
                     transform: scaleX(0);
                     transition: all .4s ease;
                 }
@@ -1384,8 +1387,8 @@ header{
                     top: 0px;
                     width: 100%;
                     height: 100%;
-                    border-right: 1px solid #14a3b4;
-                    border-left: 1px solid #14a3b4;
+                    border-right: 1px solid #92278F;
+                    border-left: 1px solid #92278F;
                     transform: scaleY(0);
                     transition: all .4s ease;
                 }
@@ -1397,7 +1400,7 @@ header{
                     transition: all .3s ease;
                     background-color: #fff !important;
                     z-index: 99 !important;
-                    color: #14a3b4;
+                    color: #92278F;
                 }
                 button{
                     width: 100%;
@@ -1421,7 +1424,7 @@ header{
         justify-content: center;
         align-items: center;
         align-content: center;
-        border: 1px solid rgba($color: #14a3b4 , $alpha: .2);
+        border: 1px solid rgba($color: #92278F , $alpha: .2);
         transition: all .5s linear;
         position: relative;
         z-index: 99;
@@ -1450,7 +1453,7 @@ header{
             text-align: center;
             padding-top: 20px;
             h6{
-                color: #14a3b4;
+                color: #92278F;
                 font-size: 14px;
                 font-family: 'bold';
                 margin-bottom: 15px;
@@ -1467,7 +1470,7 @@ header{
             position: absolute;
             width: 100%;
             height: 0%;
-            background:#14a3b4;
+            background:#92278F;
             transition: all .5s linear;
             top: 0;
             left: 0;
@@ -1475,7 +1478,7 @@ header{
         }
         &:hover{
             transform: translateY(-10px);
-            box-shadow: 0px 0px 10px rgba($color: #14a3b4 , $alpha: .4);
+            box-shadow: 0px 0px 10px rgba($color: #92278F , $alpha: .4);
             border-color: transparent;
             &::After{
                 height: 100%;
@@ -1489,6 +1492,19 @@ header{
                 }
             }
         }
+    }
+}
+.modal-body{
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    .custom-bnt{
+        width: fit-contain;
+        font-size: 11px !important;
+        padding: 10px 15px;
     }
 }
 footer{
@@ -1547,12 +1563,12 @@ footer{
                         height: 2px;
                         bottom: 0%;
                         left: 25%;
-                        background-color: #14a3b4;
+                        background-color: #92278F;
                         transform: scaleX(0);
                         transition: all 300ms linear;
                     }
                     &.active , &:hover{
-                        color: #f2b73e;
+                        color: #00A79D;
                         &::after{
                             transform: scaleX(1);
                         }
@@ -1579,7 +1595,7 @@ footer{
                     width: 40px;
                     height: 40px;
                     border-radius: 50%;
-                    border: 1px solid #20676f;
+                    border: 1px solid #92278F;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -1588,7 +1604,7 @@ footer{
                     z-index: 99;
                     overflow: hidden;
                     i{
-                        color: #20676f;
+                        color: #92278F;
                         font-size: 20px;
                         transition: all .8s linear;
                     }
@@ -1600,7 +1616,7 @@ footer{
                         top: 0;
                         left: 0;
                         border-radius: 0%;
-                        background-color: #20676f;
+                        background-color: #92278F;
                         z-index: -1;
                         transform: scale(0);
                         transition: all .5s linear;
@@ -1647,7 +1663,7 @@ footer{
         display: inline-block;
         position: absolute;
         top: 0;
-        background-color: #20676f;
+        background-color: #92278F;
         border-radius: 100%;
         animation: sk-bounce 2s infinite ease-in-out;
     }
@@ -1695,8 +1711,8 @@ footer{
     bottom: 20px;
     left: 20px;
     border-radius: 50%;
-    z-index: 9999;
-    background-color: #20676f;
+    z-index: 99;
+    background-color: #92278F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1717,6 +1733,6 @@ footer{
         display: block;
         border-radius: 50%;
         animation: st-video-animaion 2s linear infinite;
-        box-shadow: 0 0 0 5px #20676f;
+        box-shadow: 0 0 0 5px #92278F;
     }
 }
