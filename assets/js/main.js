@@ -27,7 +27,14 @@ $(document).ready(function () {
         $('.navbar-nav').removeClass('acitve-nav');
         $('body').removeClass('overflowNone')
     });
-    
+    wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 200,
+        mobile: true,
+        live: false
+    });
+    wow.init();
     //services slider 
     $('.owl-services').owlCarousel({
         rtl: true,

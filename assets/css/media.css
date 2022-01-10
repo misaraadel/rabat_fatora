@@ -11,6 +11,18 @@
     p , a , li , button {
         font-size: 11px !important;
     } */
+    header{
+        padding-top: 50px !important;
+    }
+    p{
+        font-size: 25px;
+    }
+    .order-mobile-0{
+        order: 0 !important;
+    }
+    .order-mobile-1{
+        order: 1 !important;
+    }
     .navbar{
         padding: 0px !important;
     }
@@ -80,6 +92,7 @@
     }
     .contact-us .image-content img {
         height: 280px;
+        object-position: center;
     }
 
     .services .img-box{
@@ -90,5 +103,9 @@
     }
     .questions{
         padding-top: 0px !important;
+    }
+
+    .questions .image-content{
+        height: 300px;
     }
 }
