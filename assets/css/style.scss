@@ -1612,6 +1612,36 @@ footer{
                 }
             }
         }
+
+        .data-contain{
+            margin-top: 20px;
+
+            li{
+                margin-bottom: 10px;
+                list-style: none;
+                a{
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+
+                    img{
+                        margin-inline-end: 10px;
+                        width: 24px;
+                        height: 24px;
+                        margin-bottom: 0px !important;
+                        object-fit: contain;
+                        filter: invert(18%) sepia(69%) saturate(2601%) hue-rotate(283deg) brightness(95%) contrast(91%);
+                    }
+
+                    span{
+                        color: #888;
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
     }
 }
 /*start loader*/

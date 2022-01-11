@@ -2949,6 +2949,45 @@ footer .content .socail-media li a:hover::after {
   border-radius: 50%;
 }
 
+footer .content .data-contain {
+  margin-top: 20px;
+}
+
+footer .content .data-contain li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+footer .content .data-contain li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer .content .data-contain li a img {
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0px !important;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: invert(18%) sepia(69%) saturate(2601%) hue-rotate(283deg) brightness(95%) contrast(91%);
+          filter: invert(18%) sepia(69%) saturate(2601%) hue-rotate(283deg) brightness(95%) contrast(91%);
+}
+
+footer .content .data-contain li a span {
+  color: #888;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
 /*start loader*/
 .loader {
   width: 100%;

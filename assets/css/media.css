@@ -63,7 +63,13 @@
     header .image-content ,
     .about-us .image-content img
     {
-        height: 320px;
+        height: 300px;
+    }
+    header .image-content {
+        padding: 30px 0px;
+    }
+    header .image-content img{
+        object-fit: contain;
     }
     .programs .image-content img{
         height: 200px;
